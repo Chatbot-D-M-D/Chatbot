@@ -1,0 +1,78 @@
+{"intents": [
+        {"tag": "hello",
+         "patterns": ["Salut", "Buna ziua", "Buna seara","Ceau", "Hello"],
+         "responses": ["Ma bucur sa te revad! Ce pot face pentru tine astazi?", "Salut! Ce pot face pentru tine?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["La revedere", "O zi buna"],
+         "responses": ["O zi placuta! La revedere!"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Multumesc", "Multumesc pentru ajutor", "Multumesc mult"],
+         "responses": ["Mi-a facut placere!", "Oricand, cu placere!."],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [" "],
+         "responses": ["Imi pare rau, nu am inteles.", "Nu sunt sigur ca am inteles.", "Poti repeta, te rog?"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["Cum ma poti ajuta?", "Ce poti face?"],
+         "responses": ["Stiu foarte multe despre Europa de Est, cum ar fi tarile si capitalele lor."],
+         "context": [""]
+        },
+        {"tag": "countries",
+         "patterns": ["Tari", "Tarile", "Care sunt tarile?","Care sunt tarile din Europa de Est?"],
+         "responses": ["Tarile din Europa de Est sunt: Bulgaria, Romania, Ucraina, Belarus, Republica Moldova, Polonia, Cehia, Slovacia si Ungaria."],
+         "context": [""]
+        },
+        {"tag": "Bulgaria",
+         "patterns": ["Care este capitala Bulgariei?","Bulgaria?","Bulgaria"],
+         "responses": ["Capitala Bulgariei se afla la Sofia."],
+         "context": [""]
+        },
+        {"tag": "Romania",
+         "patterns": ["Care este capitala Romaniei?","Romania?","Romania"],
+         "responses": ["Capitala Romaniei se afla la Bucuresti."],
+         "context": [""]
+        },
+        {"tag": "Ucraina",
+         "patterns": ["Care este capitala Ucrainei?","Ucraina?","Ucraina"],
+         "responses": ["Capitala Ucrainei se afla la  Kiev."],
+         "context": [""]
+        },
+        {"tag": "Belarus",
+         "patterns": ["Care este capitala Belarusului?","Belarus?","Belarus"],
+         "responses": ["Capitala Belarusului se afla la Minsk."],
+         "context": [""]
+        },
+        {"tag": "Moldova",
+         "patterns": ["Care este capitala Republicii Moldova?","Moldova?","Moldova"],
+         "responses": ["Capitala Republicii Moldova se afla la Chisinau."],
+         "context": [""]
+        },
+        {"tag": "Polonia",
+         "patterns": ["Care este capitala Poloniei?","Polonia?","Polonia"],
+         "responses": ["Capitala Poloniei se afla la Varsovia."],
+         "context": [""]
+        },
+        {"tag": "Cehia",
+         "patterns": ["Care este capitala Cehiei??","Cehia?","Cehia"],
+         "responses": ["Capitala Cehiei se afla la Praga"],
+         "context": [""]
+        },
+        {"tag": "Slovacia",
+         "patterns": ["Care este capitala Slovaciei?","Slovacia?","Slovacia"],
+         "responses": ["Capitala Slovaciei este la Bratislava"],
+         "context": [""]
+        },
+        {"tag": "Ungaria",
+         "patterns": ["Care este capitala Ungariei?","Ungaria?","Ungaria"],
+         "responses": ["Capitala Ungariei se afla la  Budapesta."],
+         "context": [""]
+        }
+   ]
+}
