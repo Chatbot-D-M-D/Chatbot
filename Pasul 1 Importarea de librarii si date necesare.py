@@ -1,3 +1,4 @@
+#Pasul 1: Importarea de librarii si date necesare
 import nltk
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
